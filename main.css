@@ -283,6 +283,7 @@ h1 {
 .review-container {
   width: 90vw;
   max-width: 600px;
+  /* height: 450px; */
   background: var(--white);
   padding: 2rem;
   border-radius: var(--borderRadius);
@@ -348,8 +349,11 @@ h1 {
 
 #info {
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: var(--grey-500);
+  letter-spacing: var(--letterSpacing);
+  line-height: 1.2;
+  min-height: 150px;
 }
 
 .arrow-buttons {
